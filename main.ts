@@ -29,10 +29,10 @@ input.onButtonPressed(Button.B, function () {
 input.onGesture(Gesture.Shake, function () {
     if (number1 < number2) {
         basic.showString( number1 + "<" + number2)
-        basic.showIcon(IconNames.Happy)
+        basic.showIcon(IconNames.Sad)
     } else { 
         (number1 > number2) 
         basic.showString( number1 + ">" + number2)
-        basic.showIcon(IconNames.Happy)
+        basic.showIcon(IconNames.Sad)
     }
 })
