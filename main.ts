@@ -6,8 +6,8 @@
 */
 
 
-let number1 = randint(0, 99)
-let number2 = randint(0, 99)
+const number1 = randint(0, 99)
+const number2 = randint(0, 99)
 
 // setup
 basic.clearScreen()
