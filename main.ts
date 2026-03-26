@@ -13,11 +13,6 @@ let number2: number = randint(0, 99)
 basic.clearScreen()
 basic.showIcon(IconNames.Happy)
 
-// generate the random integers (0-99)
-basic.showIcon(IconNames.Happy)
-number1 = Math.randomRange(0, 99)
-number2 = Math.randomRange(0, 99)
-basic.showIcon(IconNames.Happy)
 
 // button A
 input.onButtonPressed(Button.A, function () {
@@ -39,4 +34,5 @@ input.onGesture(Gesture.Shake, function () {
         basic.showString(number1 + ">" + number2)
         basic.showIcon(IconNames.Sad)
     }
+    basic.showIcon(IconNames.Sad)
 })
